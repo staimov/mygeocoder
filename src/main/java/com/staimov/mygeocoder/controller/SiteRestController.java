@@ -31,7 +31,7 @@ public class SiteRestController {
     }
 
     @PostMapping
-    public ResponseEntity<Site> saveAstronaut(@RequestParam String address) {
+    public ResponseEntity<Site> saveSite(@RequestParam String address) {
         Site site = service.saveSite(address);
         URI uri = ServletUriComponentsBuilder.fromCurrentRequestUri()
                 .path("/{id}")
