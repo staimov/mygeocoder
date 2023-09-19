@@ -8,3 +8,6 @@
 5. http://localhost:8080/
 
 ![screenshot](src/main/resources/static/screenshot.jpg?raw=true)
+
+Thanks to https://github.com/kousen
+
